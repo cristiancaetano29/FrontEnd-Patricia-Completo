@@ -1,0 +1,12 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Parisienne";  
+  font-size: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Cormorant Garamond";
+}

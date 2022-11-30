@@ -1,0 +1,58 @@
+:root {
+    --bg-menu:#8F00FF	;
+    --logo-width: 90px;
+    --content-header-height: 80px;
+    --content-footer-height: 40px;
+}
+    body {
+    box-sizing: border-box;
+    font-family: "Pacifico", sans-serif;
+    background-color: #000000;
+    }
+    /* Lay-out */
+    .App {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: var(--logo-width) 1fr;
+    grid-template-rows:
+    var(--content-header-height) 1fr var(--content-footer-height); 
+    grid-template-areas:
+        "logo menu"
+        "content content"
+        "footer footer";
+    height: 100vh;
+    /*background-color: #000000;*/
+    }
+    aside.logo{
+    grid-area: logo;
+    }
+    nav.menu {
+    grid-area: menu;
+    }
+    div.content {
+    grid-area: content;
+    }
+    
+    footer.footer {
+    grid-area: footer;
+    }
+
+.back{
+    position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	
+	background-size: cover; 
+}
+
+body{
+    background-image: url("https://storage.googleapis.com/replit/images/1645929288688_71b639e504840a45451b8917ec1dca0d.png");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}

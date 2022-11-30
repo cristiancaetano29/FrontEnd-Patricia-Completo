@@ -1,0 +1,11 @@
+footer {
+    background-color: var(--bg-menu);
+    text-align: center;
+}
+
+footer span{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+}

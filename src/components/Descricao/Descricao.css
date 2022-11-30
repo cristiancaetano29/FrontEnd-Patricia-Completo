@@ -1,0 +1,15 @@
+.t-descricao{
+    font-family: Rubik Glitch;
+    font-size: 45px;
+    color: #8F00FF	
+}
+
+.text-descricao{
+    font-family: Cormorant Garamond;
+    margin-top: 30px;
+}
+
+.text-descricao > a{
+    color: #8F00FF;
+    text-decoration: none;
+}

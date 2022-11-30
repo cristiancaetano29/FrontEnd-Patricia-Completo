@@ -1,0 +1,17 @@
+nav.menu {
+    background-color: var(--bg-menu);
+    text-align: right;
+    padding-top: 25px;
+    }
+    .menu a{  
+    text-decoration: none;
+    font-family: "Parisienne";  
+    color: rgb(243, 243, 243);
+    padding: 10px;
+    font-size: 30px;
+    padding: 5px;
+    margin-top: 20px;
+    }
+    .menu a:hover {
+        color: #aa0b0b;
+    }
